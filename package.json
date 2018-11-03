@@ -1,0 +1,35 @@
+{
+  "name": "express-enforce-https",
+  "version": "1.0.0",
+  "description": "Customisable Express middleware to enforce HTTPS on requests.",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/js-rcon/express-enforce-https.git"
+  },
+  "author": "Linus Willner <hello@linuswillner.me> (https://linuswillner.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/js-rcon/express-enforce-https/issues"
+  },
+  "keywords": [
+    "express",
+    "middleware",
+    "https"
+  ],
+  "homepage": "https://github.com/js-rcon/express-enforce-https#readme",
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
+  },
+  "dependencies": {
+    "defaults": "^1.0.3"
+  }
+}
