@@ -43,3 +43,7 @@ Default:
 ```
 
 Note: You lose access to the `options` object when overriding the handler function.
+
+## License
+
+MIT © Linus Willner and Curtis Fowler.
