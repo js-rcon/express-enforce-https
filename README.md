@@ -14,7 +14,7 @@ The main middleware function takes an `options` object. More on configuration in
 const enforceHttps = require('express-enforce-https')
 
 const options = {
-  statusCode: 403
+  statusCode: 403,
   message: 'Please switch to a HTTPS connection!'
 }
 
